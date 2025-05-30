@@ -6,7 +6,12 @@ function App() {
   
 
   return (
-    <div></div>
+    <BrowserRouter>
+    <Routes>
+      {/* qua andranno le rotte */}
+    </Routes>
+    </BrowserRouter>
+    
   )
 }
 
