@@ -11,10 +11,13 @@ function App() {
     // sistema di routing
     <BrowserRouter>
     {/* contenitore rotte */}
+
     <Routes>
       {/* singole rotte */}
       <Route path='/' element={<HomePage />} />
+      <Route path='/about' element={<AboutPage />} />
     </Routes>
+    
     </BrowserRouter>
     
   );
