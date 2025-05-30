@@ -17,6 +17,7 @@ function App() {
       {/* singole rotte */}
       <Route path='/' element={<HomePage />} />
       <Route path='/about' element={<AboutPage />} />
+      <Route path='/posts' element={<PostPage />} />
     </Routes>
 
     </BrowserRouter>
