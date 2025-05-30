@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './Pages/HomePage';
 import './App.css'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     </Routes>
     </BrowserRouter>
     
-  )
+  );
 }
 
 export default App
