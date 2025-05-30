@@ -7,9 +7,12 @@ function App() {
   
 
   return (
+    // sistema di routing
     <BrowserRouter>
+    {/* contenitore rotte */}
     <Routes>
-      {/* qua andranno le rotte */}
+      {/* singole rotte */}
+      <Route path='/' element={<HomePage />} />
     </Routes>
     </BrowserRouter>
     
