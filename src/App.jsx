@@ -14,6 +14,8 @@ function App() {
     <BrowserRouter>
     {/* contenitore rotte */}
 
+    <Navbar />         {/* NAVBAR SEMPRE VISIBILE */}
+
     <Routes>
       {/* singole rotte */}
       <Route path='/' element={<HomePage />} />
