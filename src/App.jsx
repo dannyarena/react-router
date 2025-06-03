@@ -5,6 +5,7 @@ import AboutPage from './Pages/AboutPage';
 import PostPage from './Pages/PostsPage';
 import Navbar from './components/Navbar';
 import './App.css'
+import PostDetailPage from './Pages/PostDetailPage';
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
       <Route path='/' element={<HomePage />} />
       <Route path='/about' element={<AboutPage />} />
       <Route path='/posts' element={<PostPage />} />
+      <Route path='/posts/:id' element={<PostDetailPage />} />
     </Routes>
 
     </BrowserRouter>
