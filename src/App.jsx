@@ -6,10 +6,10 @@ import PostPage from './Pages/PostsPage';
 import Navbar from './components/Navbar';
 import './App.css'
 import PostDetailPage from './Pages/PostDetailPage';
+import { PostsProvider } from './context/PostsContext';
 
 function App() {
   
-
   return (
     // sistema di routing
     <BrowserRouter>
