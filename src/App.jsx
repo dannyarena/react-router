@@ -13,7 +13,9 @@ function App() {
   return (
     // sistema di routing
     <BrowserRouter>
-    {/* contenitore rotte */}
+    {/* contenitore rotte */}.
+
+    <PostsProvider>
 
     <Navbar />         {/* NAVBAR SEMPRE VISIBILE */}
 
@@ -25,6 +27,8 @@ function App() {
       <Route path='/posts/:id' element={<PostDetailPage />} />
     </Routes>
 
+    </PostsProvider>
+    
     </BrowserRouter>
     
   );
