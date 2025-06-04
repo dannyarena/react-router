@@ -12,3 +12,10 @@ function PostsProvider({ children }) {
         </PostsContext.Provider>
     );
 }
+
+function usePosts() {
+    // chiama useContext(PostsContext) per recuperare il valore globale (posts, setPosts)
+    return useContext(PostsContext);
+}
+
+export { PostsProvider, usePosts};
